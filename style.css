@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: Gainsboro;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 1000px;
+    height: 624px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid silver;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+#formula {
+    width: 200px;
+    height: 624px;
+    border: 1px solid silver;
+}
+
+#show {
+    width: 100%;
+    height: 624px;
+    border: 1px solid silver;
+}
+
+.canvas {}
+
+#input {
+    width: 400px;
+    height: 624px;
+    border: 1px solid silver;
+}
+
+#controller {
+    position: absolute;
+    right: 720px;
+    bottom: 250px;
+}
+
+#controller button {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+#isGrid {
+    background: url('./images/isGrid.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#restore {
+    background: url('./images/restore.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grow {
+    background: url('./images/plus.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#shrink {
+    background: url('./images/minus.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.example {
+    width: 100%;
+    height: 104px;
+    border: 1px solid silver;
+}
+
+#pg1 {
+    background: url('./images/1.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pg2 {
+    background: url('./images/2.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pg3 {
+    background: url('./images/3.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pg4 {
+    background: url('./images/4.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pg5 {
+    background: url('./images/5.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pg6 {
+    background: url('./images/6.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.expression {
+
+    width: 100%;
+    height: 100px;
+    border: 1px solid silver;
+}
+
+.expTitle {
+    margin: 15px;
+}
+
+.span {
+    margin: 15px;
+}
+
+#editBox {
+    width: 570px;
+    height: 226.5px;
+    position: absolute;
+    border: 1px solid silver;
+
+    /*background-color: #FFE4B5;*/
+}
+
+.hidden {
+    display: none;
+}
+
+.appear {
+    display: block;
+    background: url('./images/input.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button {
+    width: 57px;
+    height: 57px;
+}
+
+.deleteExpBtn {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline;
+    border: 1px solid silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*去除button之间的空格*/
+
+.row {
+    font-size: 0;
+}
+
+.row button {
+    font-size: 12px;
+}
+
+
+.closeButton {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+}
+
+.zeroBtn,
+.deleteBtn,
+.enterBtn,
+.enterBtn,
+.inputBtn,
+.absBtn {
+    opacity: 0.01;
+}
+
+
+
+.zeroBtn,
+.deleteBtn,
+.enterBtn {
+    width: 112px;
+}
+
+#addExpBox {
+    display: block;
+    margin-left: 70px;
+    border-top: 1px solid silver;
+    position: absolute;
+    top: 700px;
+}
+
+#expNumber {
+    color: green;
+}

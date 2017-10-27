@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas-Formula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="formula">
+            <div id='pg1' class="example"></div>
+            <div id='pg2' class="example"></div>
+            <div id='pg3' class="example"></div>
+            <div id='pg4' class="example"></div>
+            <div id='pg5' class="example"></div>
+            <div id='pg6' class="example"></div>
+        </div>
+        <div id="show">
+            <canvas id="canvas" width="624" height="624"></canvas>
+        </div>
+        <div id="input">
+            <div id="addExpBox">
+                +增加表达式<span id="expNumber">0</span>/6
+            </div>
+            <div id="editBox" class="hidden">
+                <div class="row">
+                    <button class="inputBtn">7</button>
+                    <button class="inputBtn">8</button>
+                    <button class="inputBtn">9</button>
+                    <button class="inputBtn">+</button>
+                    <button class="inputBtn">Math.sin()</button>
+                    <button class="inputBtn">Math.cos()</button>
+                    <button class="inputBtn">Math.tan()</button>
+                    <button class="inputBtn">x</button>
+                    <button class="deleteBtn">delete</button>
+                </div>
+                <div class="row">
+                    <button class="inputBtn">4</button>
+                    <button class="inputBtn">5</button>
+                    <button class="inputBtn">6</button>
+                    <button class="inputBtn">-</button>
+                    <button class="inputBtn">Math.E</button>
+                    <button class="inputBtn">Math.PI</button>
+                    <button class="inputBtn">Math.log()/Math.log()</button>
+                    <button class="inputBtn">Math.log()</button>
+                    <button class="enterBtn">en</button>
+                </div>
+                <div class="row">
+                    <button class="inputBtn">1</button>
+                    <button class="inputBtn">2</button>
+                    <button class="inputBtn">3</button>
+                    <button class="inputBtn">*</button>
+                    <button class="inputBtn">Math.pow(,x)</button>
+                    <button class="inputBtn">Math.pow(,1/)</button>
+                    <button class="inputBtn">Math.sqrt()</button>
+                    <button class="inputBtn">Math.pow(x,)</button>
+                    <button class="enterBtn">ter</button>
+                </div>
+                <div class="row">
+                    <button class="inputBtn zeroBtn">0</button>
+                    <button class="inputBtn">.</button>
+                    <button class="inputBtn">/</button>
+                    <button class="inputBtn absBtn">Math.abs()</button>
+                    <button class="inputBtn">(</button>
+                    <button class="inputBtn">)</button>
+                    <button class="inputBtn">()/()</button>
+                    <button class="inputBtn">←</button>
+                    <button class="inputBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="controller">
+        <button id="isGrid"></button>
+        <button id="restore"></button>
+        <button id="grow"></button>
+        <button id="shrink"></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
